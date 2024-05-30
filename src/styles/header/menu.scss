@@ -17,7 +17,17 @@
   }
 
   &__content {
-    padding-inline: 20px;
+    @media (min-width: 320px){
+      padding: 20px 24px;
+    }
+
+    @media (min-width: 744px){
+      padding: 8px 72px;
+    }
+
+    @media (min-width: 1260px) {
+      padding: 24px 121px;
+    }
   }
 
   &__phone-number {
